@@ -5,10 +5,6 @@ Before getting started please read the [documentation](https://github.com/queuei
 This Fastly Queue-it Connector (aka, Queue-it's server-side KnownUser connector) uses a Compute@Edge service to
 integrate Queue-it's functionality into Fastly's network.
 
-A Compute service is required to utilize this connector.
-
-> You can find the latest released version [here](https://github.com/hrmsk66/KnownUser.V3.FastlyJSCompute/releases/latest).
-
 ## Installation
 
 ### Create a new Compute@Edge project
