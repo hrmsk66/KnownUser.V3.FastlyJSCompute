@@ -10,7 +10,7 @@ language = "javascript"
 [local_server]
   [local_server.backends]
     [local_server.backends.queue-it]
-      url = "https://XXX.queue-it.net/"
+      url = "https://{yourCustomerId}.queue-it.net/"
   [local_server.dictionaries]
     [local_server.dictionaries.integrationConfiguration]
       file = "integrationConfiguration.json"
