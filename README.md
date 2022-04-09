@@ -9,7 +9,7 @@ integrate Queue-it's functionality into Fastly's network.
 
 ### Create a new Compute@Edge project
 
-- Use `fastly compute init --from=` to scaffold a new Fastly Compute@Edge project. The CLI will generate source code for your project in the current working directory.
+- Run the command below to scaffold a new Fastly Compute@Edge project. The CLI will generate source code for your project in the current working directory.
 
 ```
 fastly compute init --from=https://github.com/hrmsk66/KnownUser.V3.FastlyJSCompute
