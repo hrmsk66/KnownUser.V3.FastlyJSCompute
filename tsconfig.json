@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./bin",
+    "module": "commonjs",
+    "target": "esnext",
+    "lib": ["esnext"],
+    "alwaysStrict": true,
+    "strict": true,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "strictPropertyInitialization": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "types": ["@fastly/js-compute"]
+  },
+  "include": ["src", "types"],
+  "exclude": ["node_modules", "bin", "test"]
+}

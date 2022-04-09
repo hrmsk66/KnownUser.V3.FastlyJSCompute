@@ -1,0 +1,18 @@
+# This file describes a Fastly Compute@Edge package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+#
+manifest_version = 2
+name = "connector-fastly"
+description = "Queue-it connector for Fastly Compute@Edge (JavaScript)"
+authors = ["<oss@fastly.com>"]
+language = "javascript"
+
+[local_server]
+  [local_server.backends]
+    [local_server.backends.queue-it]
+      url = "https://XXX.queue-it.net/"
+  [local_server.dictionaries]
+    [local_server.dictionaries.integrationConfiguration]
+      file = "integrationConfiguration.json"
+      format = "json"
+
