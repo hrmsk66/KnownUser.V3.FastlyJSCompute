@@ -1,6 +1,6 @@
 # Queue-it connector for Fastly Compute@Edge (JavaScript)
 
-_This is a sandbox project, which contains experimental code for developer use only._
+_This is an experimental Queue-it connector for Fastly Compute@Edge JavaScript SDK._
 
 ## Installation
 
