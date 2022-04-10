@@ -47,6 +47,8 @@ Apr 10 08:09:38.226  INFO backend 'queue-it' is up
 Apr 10 08:09:38.226  INFO Listening on http://127.0.0.1:7676
 ```
 
+_Note: To redirect requests to the local environment, the **Target Url** on the Go Queue-It self-service platform must be changed temporarily to `http://127.0.0.1:7676/`._
+
 ### Publish the project to a new Fastly service
 
 - Once you’re happy with your code and want to deploy the project to Fastly, run `fastly compute publish`.
