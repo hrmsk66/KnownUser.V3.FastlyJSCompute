@@ -18,7 +18,17 @@ fastly compute init --from=https://github.com/hrmsk66/KnownUser.V3.FastlyJSCompu
 ### Running a local testing server
 
 - Edit the `fastly.toml` file and replace **{yourCustomerID}** with your customer ID.
-- Edit the `integrationConfiguration.json` file and replaces the values for each JSON key. You can find these values in the Go Queue-It self-service platform.
+- Edit the `integrationConfiguration.json` file and replaces **XXX** for each JSON key. You can find these values in the Go Queue-It self-service platform.
+
+```json
+{
+    "apiKey": "XXX",
+    "customerId": "XXX",
+    "queueItOrigin": "XXX",
+    "secret": "XXX"
+}
+```
+
 - Run the `fastly compute serve` command to start the testing server
 
 ```
