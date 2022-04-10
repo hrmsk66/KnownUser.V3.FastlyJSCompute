@@ -1,9 +1,6 @@
 # Queue-it connector for Fastly Compute@Edge (JavaScript)
 
-Before getting started please read the [documentation](https://github.com/queueit/Documentation/tree/main/edge-connectors) to get acquainted with edge connectors.
-
-This Fastly Queue-it Connector (aka, Queue-it's server-side KnownUser connector) uses a Compute@Edge service to
-integrate Queue-it's functionality into Fastly's network.
+_This is a sandbox project, which contains experimental code for developer use only._
 
 ## Installation
 
