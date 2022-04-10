@@ -100,3 +100,9 @@ SUCCESS: Deployed package (service XXXXX, version 1)
   - **queueItOrigin**: The name of the queue-it host, in this case it's queue-it
     You can find these values in the Go Queue-It self-service platform.
 - To finish up and deploy your service click on the **Activate** button.
+
+### Publish the project to a new Fastly service using Terraform
+
+Alternatively, you can use Terraform to deploy and manage the service.
+
+[Example Terraform module](https://github.com/hrmsk66/terraform-fastly-ecp-queueit) for provisioning a Queue-it connector to Fastly.
